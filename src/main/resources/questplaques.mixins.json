@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "com.anthonyhilyard.questplaques.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"refmap": "questplaques.refmap.json",
+	"plugin": "com.anthonyhilyard.questplaques.mixin.MixinConfig",
+	"client": [
+		"AdvancementPlaquesToastGuiMixin",
+		"FTBQuestsAdvancementPlaquesToastGuiMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"minVersion": "0.8.5",
+	"target": "@env(DEFAULT)"
+}
